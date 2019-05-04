@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/txtvw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#4C374A"
+        android:padding="10dp"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="#AA000000"
+        android:padding="10dp"
+        android:layout_marginLeft="60dp"
+        android:hint="Enter Full Name"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/mobileno"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="60dp"
+        android:background="#AA000000"
+        android:padding="10dp"
+        android:hint="mobile no."
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="60dp"
+        android:background="#AA000000"
+        android:padding="10dp"
+        android:hint="username"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="60dp"
+        android:background="#AA000000"
+        android:padding="10dp"
+        android:hint="password"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="300dp"
+        android:layout_marginLeft="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:background="#AA000000"
+        android:padding="10dp"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        />
+
+
+</FrameLayout>

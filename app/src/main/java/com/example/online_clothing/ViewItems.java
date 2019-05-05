@@ -28,7 +28,5 @@ public class ViewItems extends AppCompatActivity {
             image.setImageResource(bundle.getInt("image"));
         }
 
-
-
     }
 }

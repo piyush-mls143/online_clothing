@@ -14,16 +14,39 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:text="Item Name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:id="@+id/itemname"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/itemprice"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/itemdescription"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:text="Item price"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+
+        android:id="@+id/itemprice"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:text="Description"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/itemdescription"/>
 
 
 </LinearLayout>

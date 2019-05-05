@@ -38,6 +38,7 @@
         android:layout_height="wrap_content"
         android:text="Item Add"
         android:background="@color/colorAccent"
-        android:id="@+id/itemadd"/>
+        android:id="@+id/itemadd"
+        android:textColor="#ffff"/>
 
 </LinearLayout>
